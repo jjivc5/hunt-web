@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles/styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Truculenta:opsz,wght@12..72,100..900&display=swap"
+    rel="stylesheet">
+  <title>Hunt Show Down Web - TUT</title>
+</head>
+
+<body>
+
+  <div class="banner">
+    <header id="header">
+      <img id="logo-img" src="images/logo.jpg" alt="icon-img">
+      <img id="img-banner" src="images/banner.png" alt="imagen_banner">
+      <nav id="menu">
+        <ul>
+          <li class="list-menu">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="list-menu">
+            <a class="nav-link" href="#novato">Principiante</a>
+          </li>
+          <li class="list-menu">
+            <a class="nav-link" href="#intermedio"> Intermedio</a>
+          </li>
+          <li class="list-menu">
+            <a class="nav-link" href="#avanzado">Avanzado</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <div class="contenido">
+    <section id="inicio">
+      <div class="bloque-texto">
+        <p>
+          Bienvenido a la página de Hunt Show Down, esta página se ha creado con la finalidad de ir
+          recopilando la información
+          que se crea más relevante sobre el juego. Usted podra encontrarse con diversos contenidos, desde
+          guías básicas, hasta estrategias
+          un poco más avanzadas. Además de reglas generales que usted puede intentar seguir en caso de que le
+          resulten relevantes, esto último con la finalidad de mejorar su juego.
+        </p>
+      </div>
+      <div class="video-links-data">
+        <iframe src="https://www.youtube.com/embed/nH9Gm36sJng" id="video-entry"></iframe>
+        <div class="steam-link-and-page">
+          <div class="block">
+            <a href="https://store.steampowered.com/app/594650/Hunt_Showdown/">
+              <img src="images/steam-icon.svg" alt="steam-link" id="steam-link">
+              <h3> Pagina Oficial Steam</h3>
+            </a>
+          </div>
+          <div class="block">
+            <a href="https://www.huntshowdown.com">
+              <img src="images/hunt-link.png" alt="huntshowdown-link" id="page-link">
+              <h3>Pagina Oficial HSD</hu>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="grunt-space">
+    <h2>Grunts</h2>
+    <p>Un grunt se caracteriza por ser el tipo de monstruo básico en Hunt Show Down, pero no por esto hay
+      que subestimarlo</p>
+    <div class="pictures">
+      <img id="grunt1" src="monsters/grunt-1.png" alt="a grunt">
+      <img id="grunt2" src="monsters/grunt-2.png" alt="a grunt">
+    </div>
+    <ul>
+      <li>La forma más común es un grunt desarmado. Atacan con sus manos únicamente. </li>
+      <li>Se recomienda utilizar, armas melee, cuchillo, puño Americano. arma con Silenciador.</li>
+    </ul>
+  </div>
+  <div class="bloque-texto">
+    <p>
+      En Hunt Show Down debemos enfrentarnos no únicamente a otros jugadores, si no que debemos entender
+      como funcionan los diferentes
+      Tipos de IA que hay en el juego.
+    </p>
+  </div>
+
+
+  <section id="novato">
+    <div class="big-monster-container">
+      <div class="main_container">
+        <div class="title" id="grunts">
+          <div class="gold-wrapper">
+            <div class="bg">Grunts</div>
+            <div class="fg">Grunts</div>
+          </div>
+        </div>
+        <div class="grunts-block">
+          <div class="slider">
+
+            <div class="slid-izq">
+              <img src="icons/calavera.png" alt="slider-izq">
+            </div>
+            <div class="img-slider">
+              <img name="Imagen">
+              <p id="descrip"></p>
+            </div>
+
+            <div class="slid-der">
+              <img src="icons/calavera.png" alt="slider-der">
+            </div>
+          </div>
+          <div class="grunts-weaks">
+            <ul>
+              <li>Todos los grunts mueren de un solo hit con balas de veneno.</li>
+              <li>Mueren por fuego, se siente atraídos por el mismo</li>
+              <li>Pueden atacar en grupo en grandes cantidades.</li>
+              <li>Su velocidad de persecución es normal.</li>
+              <li>Son sensibles al sonido, se activan al correr cerca de ellos con mas facilidad que si se
+                camina o se va agachado.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="main_container">
+        <div class="title" id="inmolador">
+          <div class="gold-wrapper">
+            <div class="bg">Inmolador / Inmolator</div>
+            <div class="fg">Inmolador / Inmolator</div>
+          </div>
+        </div>
+        <div class="contenido">
+          <div class="inmolator">
+            <ul>
+              <li>Este monstruo uno de los más agresivos del juego. </li>
+              <li>
+                Su velocidad de movimiento es muy rápida Y sus golpes también.</li>
+              <li>Puede ser eliminado por veneno, por bombas de asfixia y golpes de armas sin filo.</li>
+              <li>Dispararle con balas (que no sean de veneno) o pegarle con armas filosas lo hacen explotar
+                (libera fuego
+                alrededor) y prende fuego lo que toca. Por lo que puede quemar al cazador.
+              </li>
+              <li>Se puede matar de 2 disparos, uno en la cabeza y otro en el pecho con armas de gran calibre.
+                Con armas
+                de
+                calibre pequeño 3 disparos o más.
+              </li>
+              <li>El fuego no le hace nada</li>
+              <li>Se puede matar en el agua con cualquier arma ya que no implosiona</li>
+            </ul>
+            <div class="border-inmolator">
+              <img src="monsters/inmolador.png" alt="inmolador">
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="main_container">
+        <div class="title" id="acorazado">
+          <div class="gold-wrapper">
+            <div class="bg">Acorazado / Armored</div>
+            <div class="fg">Acorazado / Armored</div>
+          </div>
+        </div>
+        <div class="contenido">
+          <div class="acorazado">
+            <ul>
+              <li>Es un monstruo con mucha armadura, debe ser golpeado muchas veces. Con armas melee normales, resiste
+                mucho los disparos.</li>
+              <li>Es muy débil ante el veneno y muere instantáneamente con el fuego.</li>
+              <li>Existen 2 tipos de acorazados, los comunes y los cubiertos de puas.</li>
+              <li>Golpear uno de púas refleja el daño y provoca hemorragia.</li>
+              <li>Su velocidad es alta, pero si se lastiman sus pies pierden velocidad de manera drástica</li>
+            </ul>
+            <div class="acora-images">
+              <img src="monsters/acora-1.jpg" alt="acorazado-normal">
+              <img src="monsters/acora-2.jpg" alt="acorazado-con-pinches">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main_container">
+        <div class="title" id="hyve">
+          <div class="gold-wrapper">
+            <div class="bg">Hyve(Colmena)</div>
+            <div class="fg">Hyve(Colmena)</div>
+          </div>
+        </div>
+        <div class="contenido">
+          <div class="hyve">
+            <ul>
+              <li>Es una señora que se embarazo del mal. Y ahora te tira avispas cuando te ve.</li>
+              <li>Las avispas TE persiguen y producen envenenamiento. Las mismas se matan de 3 hits a pesar de estar
+                flotando, se deben realizar los hits sin cargar con el arma melee que se disponga
+              </li>
+              <li>Es débil ante el fuego, fuerte ante el veneno.</li>
+              <li>Dispone de resistencia en su cuerpo por lo que para matarla de un hit se debe disparar a la cabeza.
+                Su
+                cabeza esta de costado.
+              </li>
+              <li>El puño americano al torso mata de un hit. El cuchillo puede no hacerlo.
+              </li>
+            </ul>
+            <img src="monsters/hyve.jpg" alt="hyve">
+          </div>
+        </div>
+      </div>
+      <div class="main_container">
+        <div class="title" id="dog-id">
+          <div class="gold-wrapper">
+            <div class="bg">Hell DOG's (Sabuesos Infernales)</div>
+            <div class="fg">Hell DOG's (Sabuesos Infernales)</div>
+          </div>
+        </div>
+        <div class="contenido">
+          <div class="flex-adapter">
+            <div class="hell-dog">
+              <ul>
+                <li>11 de cada 10 novatos son asesinados por perros</li>
+                <li>Los perros te agarran en patota</li>
+                <li>Tienen tremendo dodge, esquivan los golpes</li>
+                <li>Hay que tener buen timing para matarlos</li>
+              </ul>
+              <img src="monsters/hell_dog.jpg" alt="hell-dog">
+            </div>
+            <div class="mask-dog-main">
+              <div class="mask-dog-title">
+                <h1>El perro de la mascara</h1>
+              </div>
+              <div class="mask-dog-content">
+                El perro de la máscara es una verdadera molestia, el jugador
+                debe asegurarse de golpearlo en el cuerpo.<br>
+                Recuerde además que este tipo de monstruo es muy molesto y va
+                acompañado de otros acompañantes. <br>
+                <img src="monsters/mask-hell-dog.jpg" alt="hell dog with mask">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_container">
+        <div class="title" id="pirains">
+          <div class="gold-wrapper">
+            <div class="bg">Pirañas</div>
+            <div class="fg">Pirañas</div>
+          </div>
+        </div>
+        <div class="contenido">
+          <div class="pirains">
+            <ul>
+              <li>Se mueven muy rápido hacen mucho ruido y además provocan un gran daño.</li>
+              <li>El daño viene acompañado de hemorragia.
+              </li>
+              <li>Son muy débiles ante el veneno.</li>
+              <li>Dispararle para matarlas requiere varios hits</li>
+              <li>Reaparecen infinitamente, en posiciones diferentes pero cercanas
+              </li>
+            </ul>
+            <img src="monsters/lake_pirains.jpg" alt="pirains in hunt-showdown">
+          </div>
+        </div>
+      </div>
+      <div class="main_container">
+        <div class="title" id="meat-fat">
+          <div class="gold-wrapper">
+            <div class="bg">Cacho Carne</div>
+            <div class="fg">Cacho Carne</div>
+          </div>
+        </div>
+        <div class="contenido">
+          <div class="meat-fat">
+            <ul>
+              <li>
+                Este monstruo es de los más duros del juego. Aunque no resiste las explosiones.
+              </li>
+              <li>
+                Posee larvas que envenenan, si lo hacen el gordo te sigue, si te envenena otra cosa el gordo te sigue
+                igual.
+              </li>
+              <li>
+                Matarlo a melee es muy difícil. Dispararle lleva varios tiros. Suele estar cerca de las pistas. Lo
+                ideal
+                es
+                sacarlo de ahí haciendo que te persiga.
+              </li>
+            </ul>
+            <div class="meat-img">
+              <img src="monsters/meat-1.jpg" alt="meat-fat">
+              <img src="monsters/meat-2.jpg" alt="meat-fat-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="triggers">
+    <div class="triggers">
+      <h1>Introducción a triggers</h1>
+      Disponemos de varíos triggers en el juego algunos son:
+      <ul>
+        <li>Cuervos</li>
+        <li>Patos</li>
+        <li>Gallineros</li>
+        <li>Perreros</li>
+        <li>Caballos</li>
+      </ul>
+      <p>
+        Los triggers se caracterizan por generar una alta intensidad de sonido.
+        Esto revela la posición del jugador a los cazadores enemigos, lo que les
+        permite realizar el tracking.
+      </p>
+      <div class="main_container">
+        <div class="title" id="cuervos">
+          <div class="gold-wrapper">
+            <div class="bg">Cuervos</div>
+            <div class="fg">Cuervos</div>
+          </div>
+        </div>
+
+        <div class="contenido">
+          <ul>
+            <li>
+              Al pasar muy cerca, o correr en proximidad salen volando y hacen ruido. Se ven en el cielo.
+            </li>
+            <li>
+              Van en dirección contraria desde el punto donde se activaron.
+            </li>
+            <h3>
+              Como podemos matarlos:
+            </h3>
+            <li>Con fuego, una lámpara, molotov.</li>
+            <li>Con veneno, virotes venenosos en ballesta pequeña.</li>
+            <li>Se pueden activar con señuelos.</li>
+          </ul>
+
+          <img src="triggers/cuervos.png" alt="cuervos">
+        </div>
+      </div>
+
+      <div class="main_container">
+        <div class="title" id="patos">
+          <div class="gold-wrapper">
+            <div class="bg">Patos</div>
+            <div class="fg">Patos</div>
+          </div>
+        </div>
+        <div class="contenido">
+          <ul>
+            <li>Son similares a los cuervos, pero por agua</li>
+            <li>El ruido que hacen al chapotear, genera confusión. Parecen pasos de cazadores.</li>
+            <li>Son más dificiles de matar al estar en agua.</li>
+          </ul>
+
+          <img src="triggers/patos.png" alt="patos">
+
+        </div>
+      </div>
+      <div class="main_container">
+        <div class="title" id="caballos">
+          <div class="gold-wrapper">
+            <div class="bg">Caballos</div>
+            <div class="fg">Caballos</div>
+          </div>
+        </div>
+        <div class="contenido">
+          <ul>
+            <li>Genera una gran cantidad de ruido.</li>
+            <li>Se mueve en todo momento, requiere precisión dispararle.</li>
+            <li>Puede que necesite dos golpes para morir.</li>
+          </ul>
+
+          <img src="triggers/caballos.jpg" alt="caballo">
+
+        </div>
+      </div>
+      <div class="jaulas">
+        <div class="main_container">
+          <div class="title" id="gallineros">
+            <div class="gold-wrapper">
+              <div class="bg">Gallineros</div>
+              <div class="fg">Gallineros</div>
+            </div>
+          </div>
+          <div class="contenido">
+            <ul>
+              <li>Generan ruido infinito hasta su muerte.</li>
+              <li>Para matarlos disparar o golpear lampara</li>
+              <li>Se puede hacer con una bomba de gas, pero hay que apuntar bien.</li>
+            </ul>
+
+            <img src="triggers/pollos.jpg" alt="pollos">
+
+          </div>
+        </div>
+        <div class="main_container">
+          <div class="title" id="perreros">
+            <div class="gold-wrapper">
+              <div class="bg">Perreros</div>
+              <div class="fg">Perreros</div>
+            </div>
+          </div>
+          <div class="contenido">
+            <ul>
+              <li>Mismo concepto a los gallineros, pero con perros.</li>
+            </ul>
+
+            <img src="triggers/perros.png" alt="perros">
+
+          </div>
+        </div>
+        <div class="main_container" id="caso-especial">
+          <div class="title" id="caso-especial">
+            <h1>Caso especial</h1>
+          </div>
+          <div class="contenido">
+
+            <div class="jaulas-especiales">
+              <ul>
+                <li>Disponemos de gallineros sin pintar y pintados, si tienen pintura
+                  es porque han tenido gallinas o perros.</li>
+              </ul>
+              <div class="images">
+                <img src="triggers/caso-1.png" alt="granero-sin-pintar">
+                <img src="triggers/caso-2.png" alt="granero-pintado">
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <div class="expli-block">
+
+
+  </div>
+  <script src="scriptsjs/carrousel.js"></script>
+  <script src="scriptsjs/acordeon.js"></script>
+  <script src="scriptsjs/auto-scroll.js"></script>
+
+</body>
+
+</html>
